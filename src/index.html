@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorkhapatra</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="py-10">
+        <div class="container m-auto flex justify-between items-center">
+            <!-- logo -->
+            <div>
+                <img width="300" src="https://gorkhapatraonline.com/storage/media/38360/gp-logo-black.svg" alt="gorkhapatra logo">
+            </div>
+            <!-- date -->
+            <div>
+                <span class="font-bold text-xl">१० असार २०८२, मङ्गलबार</span>
+                <img 
+                width="120"
+                src="redline.png" alt="redline">
+            </div>
+            
+        </div>
+    </header>
+    <!-- nav start -->
+     
+
+<nav class="bg-[#FFFBB0] border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+         <div class="flex md:order-2">
+    <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+      </svg>
+      <span class="sr-only">Search</span>
+    </button>
+    <div class="relative hidden md:block">
+      <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+        <span class="sr-only">Search icon</span>
+      </div>
+      <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+    </div>
+    <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+         </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+      <div class="relative mt-3 md:hidden">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+          </svg>
+        </div>
+        <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+      </div>
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#FFFBB0] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">गृहपृष्ठ</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">समाचार</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">मनोरञ्जन</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">खेलकुद</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">विचार</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">शिक्षा</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">स्वास्थ्य</a>
+        </li>
+        <li>
+          <a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">अर्थतन्त्र</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- end -->
+<section class="py-2 bg-gray-100">
+    <div class="container m-auto flex items-center">
+        <span class="font-bold mr-4">Highlights</span>
+        <marquee behavior="" direction="">
+       
+            <span class="mr-4"><i class="fa-solid fa-volume-high"></i>एक हजार पाँच सयले घट्यो सुनको मूल्य</span>
+            
+            <span ><i class="fa-solid fa-volume-high"></i>‘लालीबजार’ स्वस्तिमा, आगामी फागुन १ गते प्रदर्शनमा आउने</span>
+            
+            <span><i class="fa-solid fa-volume-high"></i>रास्वपा र राप्रपालाई सरकारको आग्रहः हठ त्यागेर संसदीय कारबाहीमा सहभागी बन्नुस्
+            </span>
+        </marquee>
+    </div>
+</section>
+    <main>
+        <!-- first section start -->
+         <section class="py-20">
+           <div class="container m-auto grid grid-cols-5 gap-4">
+            <!-- left side-->
+            <div class="col-span-3">
+                <article>
+                    <img 
+                    width="full"
+                    src="https://jawaaf.com/storage/01JYGEASCNZ31AEZ5HBKEKSDBA.jpg" alt="image">
+                    <h1>इजरायली प्रधानमन्त्री युद्धविराम गर्न तयार, ‘अवैध आक्रमण’ रोक्न दबाब</h1>
+                    <p>एजेन्सी । इजरायली प्रधानमन्त्री बेन्जामिन नेतान्याहूले युद्धविरामको घोषणा गर्न तयार रहेको बताएका छन् । मंगलबार एक विज्ञप्तिमा इजरायलले इरानसँग युद्धविराम सम्झौताका सम्बन्धमा धारणा राख्दै नेतान्याहूलाई भने, ‘गहन कूटनीतिक र सुरक्षा प्रयासहरू पछि, हामी इरानसँग व्यापक युद्धविरामको घोषणा गर्दैछौं ।</p>
+                </article>
+                <div class="grid grid-cols-2 gap-4 py-10">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right side  -->
+            <div class="col-span-2 grid grid-cols-1 gap-4 ">
+              <div class="text-2xl font-bold text-blue-600 bg-gray-100 border-l-4 border-red-700 px-8 flex items-center ">
+                <h4>ट्रेन्डिङ</h4>
+              </div>
+              <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                
+            </div>
+           </div>
+         </section>
+         <!-- first section end -->
+
+         <!-- news start -->
+          <section class="py-10">
+            <div class="container m-auto">
+              <div>
+                <h1>समाचार</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYFZRNPAF0RTZM03XFEE5WK4.jpeg" alt="#">
+                  <h2 class="py-4">एसीसी यू–१६ क्रिकेटको दोस्रो खेलमा जापानविरुद्ध बलिङ गर्दै नेपाल</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+          <!-- news end -->
+        
+
+
+          <!-- entertainment start -->
+           <section class="py-20">
+            <div class="container m-auto">
+              <div>
+                <h1>मनोरञ्जन</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYGV07YS1TDDX0E5P9T3QDGC.jpg" alt="#">
+                  <h2 class="py-4">‘लालीबजार’ स्वस्तिमा, आगामी फागुन १ गते प्रदर्शनमा आउने</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+           <!-- entertainment end-->
+
+
+           <!-- sports start -->
+            <section class="py-20">
+            <div class="container m-auto">
+              <div>
+                <h1>खेलकुद</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYFZRNPAF0RTZM03XFEE5WK4.jpeg" alt="#">
+                  <h2 class="py-4">एसीसी यू–१६ क्रिकेटको दोस्रो खेलमा जापानविरुद्ध बलिङ गर्दै नेपाल</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+            <!-- sports ends -->
+             
+
+             <!--  thoughts starts-->
+              <section class="py-20">
+            <div class="container m-auto">
+              <div>
+                <h1>विचार</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYFZRNPAF0RTZM03XFEE5WK4.jpeg" alt="#">
+                  <h2 class="py-4">एसीसी यू–१६ क्रिकेटको दोस्रो खेलमा जापानविरुद्ध बलिङ गर्दै नेपाल</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+            <!-- thoughts ends -->
+
+
+             <!--  education starts-->
+           <section class="py-20">
+            <div class="container m-auto">
+              <div>
+                <h1>शिक्षा</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYFZRNPAF0RTZM03XFEE5WK4.jpeg" alt="#">
+                  <h2 class="py-4">एसीसी यू–१६ क्रिकेटको दोस्रो खेलमा जापानविरुद्ध बलिङ गर्दै नेपाल</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+            <!--education end  -->
+
+
+            <!--  health start-->
+            <section class="py-20">
+            <div class="container m-auto">
+              <div>
+                <h1>स्वास्थ्य</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYFZRNPAF0RTZM03XFEE5WK4.jpeg" alt="#">
+                  <h2 class="py-4">एसीसी यू–१६ क्रिकेटको दोस्रो खेलमा जापानविरुद्ध बलिङ गर्दै नेपाल</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+            <!-- health end -->
+
+
+            <!-- economics start -->
+          <section class="py-20">
+            <div class="container m-auto">
+              <div>
+                <h1>अर्थतन्त्र</h1>
+                <img width="120"
+                src="redline.png" alt="#">
+              </div>
+              <div class="grid grid-cols-3 my-4 gap-4">
+                <!-- left side -->
+                <div class="grid grid-cols-1 gap-4">
+                  <div>
+                  <img width="full"
+                  src="https://jawaaf.com/storage/01JYFZRNPAF0RTZM03XFEE5WK4.jpeg" alt="#">
+                  <h2 class="py-4">एसीसी यू–१६ क्रिकेटको दोस्रो खेलमा जापानविरुद्ध बलिङ गर्दै नेपाल</h2>
+                </div>
+                <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side end -->
+
+                <!-- middle start -->
+                 <div class="grid grid-cols-1 gap-4">
+                  <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- middle end -->
+
+                 <!-- right start-->
+                  <div class="grid grid-cols-1 gap-4">
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div><div class="flex gap-4">
+                        <div>
+                            <img
+                            class="w-52"
+                             src="https://jawaaf.com/storage/01JYGCY71T1KC8880XYF17TAPE.jpg" alt="#">
+                        </div>
+                        <div>
+                            <h2>विद्युत प्राधिकरणको लापरवाही</h2>
+                            <span><i class="fa-solid fa-calendar-days"></i></span>
+                            <span>१० असार २०८२, मङ्गलबार</span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right end -->
+              </div>
+            </div>
+           </section>
+             <!-- economicsend -->
+
+
+
+    </main>
+
+<!-- footer section starts -->
+ 
+
+<footer">
+    <section class="bg-gray-300 h-96">
+        <div class="container m-auto justify-between grid grid-cols-4 gap-6 ">
+            <div class="col-span-1 items-center py-6">
+                <img width="300"
+                src="https://gorkhapatraonline.com/storage/media/38360/gp-logo-black.svg" alt="gorkhapatra logo">
+            </div>
+
+            <div class="col-span-1 py-6 ">
+
+                <h2>गोरखापत्र संस्थान</h2>
+                <div class="py-4">
+                <p>धर्मपथ, काठमाडौँ, नेपाल</p>
+                <p>अनलाइन प्रकाशन : ०१-५३२०८३५</p>
+                <p>विज्ञापन शाखा : ०१-५३२७४९३</p>
+                <p>टोल -फ्री न. : १६६०-०१-९४४४४</p>
+                <p>इमेल : news.gorkhapatra@gmail.com mgorkhapatra@gmail.com</p>
+                <p>सूचना तथा प्रशारण विभाग दर्ता : १५३८/०७६-७७</p>
+
+                </div>   
+            </div>
+            <div class="col-span-1 py-6">
+                <h2>महत्वपूर्ण लिन्कहरु</h2>
+                <div class="py-4">
+                <p>लोकसेवा आयोग</p>
+                <p>राष्ट्रिय योजना आयोग</p>
+                <p>सञ्चार तथा सूचना प्रविधि मन्त्रालय</p>
+                <p>गृह मन्त्रालय</p>
+                <p>नेपाल सरकार</p>
+
+
+                </div>
+                
+            </div>
+            <div class="col-span-1 py-6">
+                <h2>Our Team</h2>
+                <div class="py-4">
+                <p>कार्यकारी अध्यक्ष : विष्णुप्रसाद सुवेदी</p>
+                <p>महाप्रबन्धक : लालबहादुर ऐरी</p>
+                <p>निमित्त प्रधानसम्पादक : जुनारबाबु बस्नेत (गोरखापत्र दैनिक)</p>
+                <p>डिजिटल प्रमुख : नारदमुनि गौतम</p>
+                <p>निमित्त सम्पादक : लोकबहादुर चौधरी</p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+ </section>
+
+
+
+
+
+
+
+<section>
+    <div class="bg-slate-300 bg-clip-border w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block font-bold text-sm text-black sm:text-center dark:text-gray-400">© 2025 <a href="https://gorkhapatraonline.com/" class="hover:underline">gorkhapatra</a>. All Rights Reserved.</span>
+</div>
+</section>
+
+</footer>
+
+
+<!-- footer section end -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
