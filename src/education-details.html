@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+     <header class="py-10">
+        <div class="container m-auto flex justify-between items-center">
+            <!-- logo -->
+            <div>
+                <img width="300" src="https://gorkhapatraonline.com/storage/media/311657/gp-logo-black.svg" alt="gorkhapatra logo">
+            </div>
+            <!-- date -->
+            <div>
+                <span class="font-bold text-xl">वैशाख १०,मङ्गलबार २०८३ </span>
+                <img 
+                width="120"
+                src="redline.png" alt="redline">
+            </div>
+            
+        </div>
+    </header>
+<!-- nav bar -->
+ <nav class="bg-[#FFFBB0] border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+         <div class="flex md:order-2">
+    <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+      </svg>
+      <span class="sr-only">Search</span>
+    </button>
+    <div class="relative hidden md:block">
+      <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+        <span class="sr-only">Search icon</span>
+      </div>
+      <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+    </div>
+    <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+         </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+      <div class="relative mt-3 md:hidden">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+          </svg>
+        </div>
+        <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+      </div>
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#FFFBB0] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+<a href="index.html"
+   class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
+   गृहपृष्ठ
+</a>
+        </li>
+        <li>
+          <a href="news.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">समाचार</a>
+        </li>
+        <li>
+          <a href="entertainment.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">मनोरञ्जन</a>
+        </li>
+        <li>
+          <a href="sports.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">खेलकुद</a>
+        </li>
+        <li>
+          <a href="politics.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">विचार</a>
+        </li>
+        <li>
+            <a href="education.html"
+     class="block text-2xl py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:font-bold md:p-0"
+     aria-current="page">
+     शिक्षा
+  </a>
+        </li>
+        <li>
+          <a href="health.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">स्वास्थ्य</a>
+        </li>
+        <li>
+          <a href="business.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">अर्थतन्त्र</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div class="max-w-6xl mx-auto p-6 bg-white mt-6 rounded-lg shadow">
+
+    <div class="flex items-center text-gray-500 mb-4 border-b pb-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        <span class="text-sm font-medium">प्रकाशित मिति: आइतबार, २७ वैशाख २०८३</span>
+    </div>
+    <h1 class="text-4xl font-bold mb-6">
+        रेडपाण्डा अध्ययन र अवलोकन गर्न आउनेको संख्या बढ्यो, विदेशीलाई विशेष चासो
+    </h1>
+
+    <img
+      src="https://jawaaf.com/storage/01KPM4S6CN4T2EDQRFAY95TGP7.jpg"
+      class="w-full h-[500px] object-cover rounded-lg mb-6"
+    >
+
+    <p class="text-lg leading-9 text-gray-700">
+इलाम । विश्वका सिमित देशमा मात्रै पाइने रेडपाण्डा हेर्न इलामका उच्च पहाडी क्षेत्रमा पर्यटक पुग्ने क्रम बढेको छ ।
+
+सन्दकपुर गाँउपालिकाको दोबाटेमा अमेरिका, अस्टे«लिया, न्यूजिजल्याण्ड, भारत, बंगलादेशका पर्यटकहरु रेडपाण्डा अध्ययनमा पुग्ने गरेका छन् ।
+
+दोबाटेबाट नजिकै रहेको कैयाकट्टामा पनि रेडपाण्डा हेर्न आउने पर्यटकको संख्या बढ्दो छ । सिंहलिला कंचनजंघा क्षेत्रमा पर्ने इलामको उत्तरी क्षेत्र रेडपाण्डाको बासस्थान हो ।
+
+नेपाल, भारत, भुटान, चीन र म्यानमारमा मात्रै पाइने रेडपाण्डा हेर्नकै लागी बिभन्न मुलकका पर्यटकहरु इलामका उच्च पहाडी क्षेत्रमा पुग्ने गरेका इलामका पर्यटनकर्मी तथा पत्रकार सुजन तिम्सीनाले जानकारी दिए ।
+
+रेडपाण्डाको संरक्षण र पर्यटन प्रवद्र्धनमा रेडपाण्डा नेटवर्क सक्रिय रहेको छ । इलामको सूर्योदय नगरपालिका १ को थुम्के, माईजोगमाई गाउँपालिकाको आहालभञ्ज्याङ्ग, सन्दकपुर गाउँपालिकाको टप्पु, छिन्टापु, दोबाटे, कैयाकट्टा, जौबारी, गैरीबास र चोयाटार क्षेत्रमा रेडपाण्डा पाइन्छ । यहाँ रेडपाण्डाको माध्यमबाट पर्यटन प्रवद्र्धनको काम भएपछि बिदेशी पर्यटक पुग्ने गरेका छन् ।
+
+रेडपाण्डाको बढी बसोबास भएको क्षेत्र सन्दकपुर गाउँपालिका हो । जसका कारण रामसार क्षेत्र माईपोखरीबाट जौबारी जोड्ने ५२ किलोमिटर लामो पदमार्गलाई गाउँपालिकाले रेडपाण्डा पदमार्ग घोषणा गरि पर्यटन प्रवद्र्धन गर्दै आएको छ ।
+
+सन्दकपुरमा रेडपाण्डासँगै सयौँ प्रजातीका चराहरु, ध्वाँसे चितुवा, चरिबाघ, मुनाल लगायतका वन्यन्तुहरुको अध्ययन गर्न पाइन्छ । जसका कारण तेस्रो मुलकका पर्यटकहरुको आकर्षण इलामका उच्च पहाडी क्षेत्रमा बढेको हो ।
+    </p>
+
+</div>
+  <!-- Related News Section -->
+<section class="max-w-7xl mx-auto px-4 py-12">
+
+  <!-- Section Title -->
+  <div class="mb-8">
+    <h2 class="text-4xl font-bold text-purple-900 inline-block relative">
+      सम्बन्धित खबर
+    </h2>
+    <div class="w-28 h-1 bg-purple-700 mt-2 rounded"></div>
+  </div>
+
+  <!-- News Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    <!-- Card 1 -->
+    <a href="#" class="group">
+      <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+        >
+
+        <div class="p-4">
+
+          <h3 class="text-xl font-semibold text-gray-800 leading-snug mb-3">
+            संघीय संसदका दुबै सदनको संयुक्त बैठकमा राष्ट्रपतिले सम्बोधन गर्ने
+          </h3>
+
+          <div class="flex items-center text-gray-500 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 mr-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+
+            २९ बैशाख २०८३, सोमवार
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 2 -->
+    <a href="#" class="group">
+      <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+        >
+
+        <div class="p-4">
+
+          <h3 class="text-xl font-semibold text-gray-800 leading-snug mb-3">
+            आजको मौसम : हिमाली तथा पहाडी भूभागको केही स्थानमा वर्षाको सम्भावना
+          </h3>
+
+          <div class="flex items-center text-gray-500 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 mr-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+
+            २९ बैशाख २०८३, सोमवार
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 3 -->
+    <a href="#" class="group">
+      <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+        >
+
+        <div class="p-4">
+
+          <h3 class="text-xl font-semibold text-gray-800 leading-snug mb-3">
+            सगरमाथा आधार शिविरमा भारतीयहरुले खिचिएको नेपाली झण्डा कसले फहरायो ?
+          </h3>
+
+          <div class="flex items-center text-gray-500 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 mr-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+
+            २९ बैशाख २०८३, सोमवार
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 4 -->
+    <a href="#" class="group">
+      <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+        >
+
+        <div class="p-4">
+
+          <h3 class="text-xl font-semibold text-gray-800 leading-snug mb-3">
+            बराहक्षेत्रमा साहित्य सम्मान तथा पुरस्कार समर्पण कार्यक्रम सम्पन्न
+          </h3>
+
+          <div class="flex items-center text-gray-500 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 mr-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+
+            २९ बैशाख २०८३, सोमवार
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<footer">
+    <section class="bg-gray-300 h-96">
+        <div class="container m-auto justify-between grid grid-cols-4 gap-6 ">
+            <div class="col-span-1 items-center py-6">
+                <img width="300"
+                src="https://gorkhapatraonline.com/storage/media/311657/gp-logo-black.svg" alt="gorkhapatra logo">
+            </div>
+
+            <div class="col-span-1 py-6 ">
+
+                <h2>गोरखापत्र संस्थान</h2>
+                <div class="py-4">
+                <p>धर्मपथ, काठमाडौँ, नेपाल</p>
+                <p>अनलाइन प्रकाशन : ०१-५३२०८३५</p>
+                <p>विज्ञापन शाखा : ०१-५३२७४९३</p>
+                <p>टोल -फ्री न. : १६६०-०१-९४४४४</p>
+                <p>इमेल : news.gorkhapatra@gmail.com mgorkhapatra@gmail.com</p>
+                <p>सूचना तथा प्रशारण विभाग दर्ता : १५३८/०७६-७७</p>
+
+                </div>   
+            </div>
+            <div class="col-span-1 py-6">
+                <h2>महत्वपूर्ण लिन्कहरु</h2>
+                <div class="py-4">
+                <p>लोकसेवा आयोग</p>
+                <p>राष्ट्रिय योजना आयोग</p>
+                <p>सञ्चार तथा सूचना प्रविधि मन्त्रालय</p>
+                <p>गृह मन्त्रालय</p>
+                <p>नेपाल सरकार</p>
+
+
+                </div>
+                
+            </div>
+            <div class="col-span-1 py-6">
+                <h2>Our Team</h2>
+                <div class="py-4">
+                <p>कार्यकारी अध्यक्ष : विष्णुप्रसाद सुवेदी</p>
+                <p>महाप्रबन्धक : लालबहादुर ऐरी</p>
+                <p>निमित्त प्रधानसम्पादक : जुनारबाबु बस्नेत (गोरखापत्र दैनिक)</p>
+                <p>डिजिटल प्रमुख : नारदमुनि गौतम</p>
+                <p>निमित्त सम्पादक : लोकबहादुर चौधरी</p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+ </section>
+
+</footer>
+</body>
+</html>

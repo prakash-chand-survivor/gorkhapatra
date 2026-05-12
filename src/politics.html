@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>विचार</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+<header class="py-10">
+        <div class="container m-auto flex justify-between items-center">
+            <!-- logo -->
+            <div>
+                <img width="300" src="https://gorkhapatraonline.com/storage/media/311657/gp-logo-black.svg" alt="gorkhapatra logo">
+            </div>
+            <!-- date -->
+            <div>
+                <span class="font-bold text-xl">वैशाख १०, मङ्गलबार</span>
+                <img 
+                width="120"
+                src="redline.png" alt="redline">
+            </div>
+            
+        </div>
+    </header>
+<!-- ================= NAVBAR ================= -->
+
+<nav class="bg-[#FFFBB0] border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+         <div class="flex md:order-2">
+    <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+      </svg>
+      <span class="sr-only">Search</span>
+    </button>
+    <div class="relative hidden md:block">
+      <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+        <span class="sr-only">Search icon</span>
+      </div>
+      <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+    </div>
+    <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+         </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+      <div class="relative mt-3 md:hidden">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+          </svg>
+        </div>
+        <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+      </div>
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#FFFBB0] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+            <a href="index.html"
+   class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
+   गृहपृष्ठ
+</a>
+        </li>
+        <li>
+          <a href="news.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">समाचार</a>
+        </li>
+        <li>
+          <a href="entertainment.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">मनोरञ्जन</a>
+        </li>
+        <li>
+          <a href="sports.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">खेलकुद</a>
+        </li>
+        <li>
+            <a href="politics.html"
+     class="block text-2xl py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:font-bold md:p-0"
+     aria-current="page">
+     विचार
+  </a>
+        </li>
+        <li>
+          <a href="education.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">शिक्षा</a>
+        </li>
+        <li>
+          <a href="health.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">स्वास्थ्य</a>
+        </li>
+        <li>
+          <a href="business.html" class="block text-2xl py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">अर्थतन्त्र</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= NEWS SECTION ================= -->
+
+<div class="max-w-7xl mx-auto p-5">
+
+
+  <!-- News Card -->
+  <a href="politics-details.html">
+  <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8 flex flex-col md:flex-row">
+
+    <img src="https://jawaaf.com/storage/01KRAZGDAXCK0F40V5B3KHWVV8.jpg"
+      class="w-full md:w-96 h-72 object-cover">
+
+    <div class="p-6 flex flex-col justify-between">
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4">
+            इरानले अमेरिकी शान्ति प्रस्ताव अस्वीकार गर्दै कडा सर्तसहित प्रतिक्रिया पठायो
+        </h2>
+
+        <p class="text-gray-700 text-lg">
+          काठमाडौं । इरानले अमेरिकाले प्रस्तुत गरेको तनाव घटाउने प्रस्ताव अस्वीकार गरेको छ । इरानी दूतावासले भारतमा जारी गरेको विज्ञप्ति अनुसार, उक्त प्रस्ताव स्वीकार गर्नु भनेको ट्रम्पका अत्यधिक मागहरूमा तेहरानले आत्मसमर्पण गर्नु सरह हुने बताइएको छ ।
+        </p>
+      </div>
+
+      <!-- Read More -->
+      <div class="mt-6">
+        <span class="inline-flex items-center gap-2 text-purple-700 font-bold text-lg hover:text-purple-900">
+
+          पुरा पढ्नुहोस्
+
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</a>
+
+
+<!-- News Card -->
+  <a href="">
+  <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8 flex flex-col md:flex-row">
+
+    <img src="https://jawaaf.com/storage/01KR6DFKRRCXJBPGW22V56FRFC.jpg"
+      class="w-full md:w-96 h-72 object-cover">
+
+    <div class="p-6 flex flex-col justify-between">
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4">
+सुकुम्बासीमाथि दमन भएको भन्दै माइतीघरमा श्रम संस्कृति पार्टीको प्रदर्शन,
+        </h2>
+
+        <p class="text-gray-700 text-lg">
+काठमाडौं । श्रम संस्कृति पार्टी बागमती प्रदेश समन्वय समितिले माइतीघर मण्डलामा प्रदर्शन गरेको छ । यो देश गरीबको पनि हो, सुकुम्बासी तथा अव्यवस्थित बसोबासप्रति राज्यले गरेको दमनविरुद्ध श्रम संस्कृति पार्टीले खबरदारी गरेको हो ।
+        </p>
+      </div>
+
+      <!-- Read More -->
+      <div class="mt-6">
+        <span class="inline-flex items-center gap-2 text-purple-700 font-bold text-lg hover:text-purple-900">
+
+          पुरा पढ्नुहोस्
+
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</a>
+<!-- News Card -->
+  <a href="">
+  <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8 flex flex-col md:flex-row">
+
+    <img src="https://jawaaf.com/storage/01KQYM9N1FB0KKFQ8FYDA8ZP2G.jpg"
+      class="w-full md:w-96 h-72 object-cover">
+
+    <div class="p-6 flex flex-col justify-between">
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4">
+            
+होर्मुज जलमार्गमा इरानको नयाँ नियमः जहाजलाई ट्रान्जिट अनुमति अनिवार्य
+        </h2>
+
+        <p class="text-gray-700 text-lg">
+        तेहरान । इरानले विश्वकै अत्यन्त रणनीतिक जलमार्ग मानिने होर्मुज जलमार्ग क्षेत्रमा समुद्री आवागमन नियन्त्रणका लागि नयाँ नियम लागू गरेको छ । नयाँ व्यवस्थाअनुसार अब उक्त जलमार्ग हुँदै जाने सबै जहाजहरूले पूर्वस्वीकृति (ट्रान्जिट परमिट) अनिवार्य रूपमा लिनुपर्ने भएको छ ।
+
+        </p>
+      </div>
+
+      <!-- Read More -->
+      <div class="mt-6">
+        <span class="inline-flex items-center gap-2 text-purple-700 font-bold text-lg hover:text-purple-900">
+
+          पुरा पढ्नुहोस्
+
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</a>
+
+  <!-- News Card -->
+  <a href="">
+  <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8 flex flex-col md:flex-row">
+
+    <img src="https://www.jawaaf.com/storage/01KR5FWQJ4P9EXQ5ZSWANYHE9S.jpeg"
+      class="w-full md:w-96 h-72 object-cover">
+
+    <div class="p-6 flex flex-col justify-between">
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4">
+        सर्लाहीका सुकुम्बासी पनि आन्दोलित, सरकारविरुद्ध नाराबाजी
+
+        </h2>
+
+        <p class="text-gray-700 text-lg">
+       सर्लाही । सुकुम्बासी हटाउने सरकारी कदमविरुद्ध सर्लाहीका सुकुम्बासी पनि आन्दोलित भएका छन् । 
+
+        </p>
+      </div>
+
+      <!-- Read More -->
+      <div class="mt-6">
+        <span class="inline-flex items-center gap-2 text-purple-700 font-bold text-lg hover:text-purple-900">
+
+          पुरा पढ्नुहोस्
+
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</a>
+
+<!-- News Card -->
+  <a href="">
+  <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8 flex flex-col md:flex-row">
+
+    <img src="https://www.jawaaf.com/storage/01KRAASAKWR0QXXRJTFAZ5ME2H.jpg"
+      class="w-full md:w-96 h-72 object-cover">
+
+    <div class="p-6 flex flex-col justify-between">
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4">
+        आजको मौसम : हिमाली तथा पहाडी भूभागको केही स्थानमा चट्याङसहित मध्यम वर्षाको सम्भावना
+
+        </h2>
+
+        <p class="text-gray-700 text-lg">
+        काठमाडौं । हाल नेपालमा पश्चिमी वायू, स्थानीय वायू र नेपालको पूर्वी भूभाग नजिक तल्लो वायूमण्डलमा रहेको न्यून चापीय क्षेत्रको साथै मध्य र पूर्वी भूभागको उपल्लो वायूमण्डलमा रहेको न्यून चापीय रेखाको समेत आंशिक प्रभाव रहेको छ ।
+
+        </p>
+      </div>
+
+      <!-- Read More -->
+      <div class="mt-6">
+        <span class="inline-flex items-center gap-2 text-purple-700 font-bold text-lg hover:text-purple-900">
+
+          पुरा पढ्नुहोस्
+
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</a>
+
+  
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer">
+    <section class="bg-gray-300 h-96">
+        <div class="container m-auto justify-between grid grid-cols-4 gap-6 ">
+            <div class="col-span-1 items-center py-6">
+                <img width="300"
+                src="https://gorkhapatraonline.com/storage/media/311657/gp-logo-black.svg" alt="gorkhapatra logo">
+            </div>
+
+            <div class="col-span-1 py-6 ">
+
+                <h2>गोरखापत्र संस्थान</h2>
+                <div class="py-4">
+                <p>धर्मपथ, काठमाडौँ, नेपाल</p>
+                <p>अनलाइन प्रकाशन : ०१-५३२०८३५</p>
+                <p>विज्ञापन शाखा : ०१-५३२७४९३</p>
+                <p>टोल -फ्री न. : १६६०-०१-९४४४४</p>
+                <p>इमेल : news.gorkhapatra@gmail.com mgorkhapatra@gmail.com</p>
+                <p>सूचना तथा प्रशारण विभाग दर्ता : १५३८/०७६-७७</p>
+
+                </div>   
+            </div>
+            <div class="col-span-1 py-6">
+                <h2>महत्वपूर्ण लिन्कहरु</h2>
+                <div class="py-4">
+                <p>लोकसेवा आयोग</p>
+                <p>राष्ट्रिय योजना आयोग</p>
+                <p>सञ्चार तथा सूचना प्रविधि मन्त्रालय</p>
+                <p>गृह मन्त्रालय</p>
+                <p>नेपाल सरकार</p>
+
+
+                </div>
+                
+            </div>
+            <div class="col-span-1 py-6">
+                <h2>Our Team</h2>
+                <div class="py-4">
+                <p>कार्यकारी अध्यक्ष : विष्णुप्रसाद सुवेदी</p>
+                <p>महाप्रबन्धक : लालबहादुर ऐरी</p>
+                <p>निमित्त प्रधानसम्पादक : जुनारबाबु बस्नेत (गोरखापत्र दैनिक)</p>
+                <p>डिजिटल प्रमुख : नारदमुनि गौतम</p>
+                <p>निमित्त सम्पादक : लोकबहादुर चौधरी</p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+ </section>
+
+
+</footer>
+
+</body>
+</html>
